@@ -1,0 +1,8 @@
+---- csp_listen Matches (7 in 7 files) ----
+csp.h (C:\Users\hasee\OneDrive\天仪\libcsp_libuv_freertos\proj\src\libcsp-master\include\csp) line 269 : int csp_listen(csp_socket_t *socket, size_t conn_queue_length);
+main in csp_if_fifo.c (C:\Users\hasee\OneDrive\天仪\libcsp_libuv_freertos\proj\src\libcsp-master\examples) :         csp_listen(sock, 5);
+main in csp_if_fifo_windows.c (C:\Users\hasee\OneDrive\天仪\libcsp_libuv_freertos\proj\src\libcsp-master\examples) :         csp_listen(sock, 5);
+csp_socket in csp_io.c (C:\Users\hasee\OneDrive\天仪\libcsp_libuv_freertos\proj\src\libcsp-master\src) : 	 * if not, the user must init the queue using csp_listen */
+csp_port.c (C:\Users\hasee\OneDrive\天仪\libcsp_libuv_freertos\proj\src\libcsp-master\src) line 64 : int csp_listen(csp_socket_t * socket, size_t conn_queue_length) {
+CSP_DEFINE_TASK in kiss.c (C:\Users\hasee\OneDrive\天仪\libcsp_libuv_freertos\proj\src\libcsp-master\examples) :     csp_listen(socket, 5);
+CSP_DEFINE_TASK in simple.c (C:\Users\hasee\OneDrive\天仪\libcsp_libuv_freertos\proj\src\libcsp-master\examples) : 	csp_listen(sock, 10);

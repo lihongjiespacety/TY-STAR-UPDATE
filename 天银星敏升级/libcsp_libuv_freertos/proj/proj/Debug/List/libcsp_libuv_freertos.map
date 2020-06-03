@@ -1,0 +1,1352 @@
+###############################################################################
+#
+# IAR ELF Linker V8.10.1.12857/W32 for ARM                19/Mar/2020  11:46:02
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Exe\libcsp_libuv_freertos.out
+#    Map file     =  
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\List\libcsp_libuv_freertos.map
+#    Command line =  
+#        -f C:\Users\hasee\AppData\Local\Temp\EWF75C.tmp
+#        (C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\bsp_sci.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\bsp_time.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\can.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\can_stm32.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\clock.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\croutine.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_bridge.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_buffer.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_conn.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_crc32.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_debug.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_dedup.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_endian.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_hmac.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_if_kiss.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_if_lo.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_iflist.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_io.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_malloc.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_port.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_promisc.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_qfifo.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_queue.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_rdp.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_route.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_rtable_static.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_semaphore.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_service_handler.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_services.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_sfp.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_sha1.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_system.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_thread.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_time.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_udp.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\csp_xtea.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\driver_can.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\driver_time.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\driver_uart.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\event_groups.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\hal_uart.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\heap_3.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\kiss.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\list.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\main.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\misc.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\osapi_freertos.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\port.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\portasm.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\queue.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\retarget.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\shell.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\shell_fun.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\startup_stm32f10x_hd.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_adc.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_bkp.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_can.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_cec.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_crc.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_dac.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_dbgmcu.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_dma.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_exti.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_flash.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_fsmc.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_gpio.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_i2c.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_iwdg.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_pwr.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_rcc.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_rtc.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_sdio.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_spi.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_tim.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_usart.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stm32f10x_wwdg.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\stream_buffer.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\system_stm32f10x.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\tasks.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\timers.o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj\usart_stm32.o
+#        -o
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Exe\libcsp_libuv_freertos.out
+#        --map
+#        C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\List\libcsp_libuv_freertos.map
+#        --config "E:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.0\arm\config\linker\ST\stm32f103xE.icf" --entry __iar_program_start
+#        --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000ffff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                      0x130
+  .intvec            ro code  0x08000000   0x130  startup_stm32f10x_hd.o [1]
+                            - 0x08000130   0x130
+
+"P1":                                     0xd253
+  .text              ro code  0x08000130  0x14e6  dlmalloc.o [3]
+  .text              ro code  0x08001616     0x6  abort.o [3]
+  .text              ro code  0x0800161c    0x2c  xgetmemchunk.o [3]
+  .text              ro code  0x08001648     0xc  XXexit.o [5]
+  .text              ro code  0x08001654  0x1264  bsp_sci.o [1]
+  .text              ro code  0x080028b8   0x204  stm32f10x_rcc.o [1]
+  .text              ro code  0x08002abc   0x4ec  stm32f10x_gpio.o [1]
+  .text              ro code  0x08002fa8    0xe4  misc.o [1]
+  .text              ro code  0x0800308c   0x3fa  main.o [1]
+  .text              ro code  0x08003486    0x7a  lz77_init_single.o [5]
+  .text              ro code  0x08003500   0xb10  driver_uart.o [1]
+  .text              ro code  0x08004010    0x66  ABImemset.o [5]
+  .text              ro code  0x08004076    0x1e  xsscin.o [3]
+  .text              ro code  0x08004094   0x6d8  osapi_freertos.o [1]
+  .text              ro code  0x0800476c    0xb4  kiss.o [1]
+  .text              ro code  0x08004820   0x880  can.o [1]
+  .text              ro code  0x080050a0    0x74  hal_uart.o [1]
+  .text              ro code  0x08005114    0xc0  retarget.o [1]
+  .text              ro code  0x080051d4    0x28  printf.o [3]
+  .text              ro code  0x080051fc   0x270  shell.o [1]
+  .text              ro code  0x0800546c   0x110  can_stm32.o [1]
+  .text              ro code  0x0800557c   0xce0  driver_can.o [1]
+  .text              ro code  0x0800625c   0x1f0  system_stm32f10x.o [1]
+  .text              ro code  0x0800644c    0xf4  csp_debug.o [1]
+  .text              ro code  0x08006540   0x124  driver_time.o [1]
+  .text              ro code  0x08006664   0xc5c  tasks.o [1]
+  .text              ro code  0x080072c0   0x124  port.o [1]
+  .text              ro code  0x080073e4     0x4  heaptramp0.o [3]
+  .text              ro code  0x080073e8    0x36  strlen.o [5]
+  .text              ro code  0x0800741e    0x1a  xsnprout.o [3]
+  .text              ro code  0x08007438    0x68  memcmp.o [5]
+  .text              ro code  0x080074a0   0x704  queue.o [1]
+  .text              ro code  0x08007ba4    0x20  vprintf.o [3]
+  .text              ro code  0x08007bc4    0x84  csp_system.o [1]
+  .text              ro code  0x08007c48    0x3e  isprint.o [3]
+  .rodata            const    0x08007c86     0x2  shell_fun.o [1]
+  .text              ro code  0x08007c88   0x22c  csp_buffer.o [1]
+  .text              ro code  0x08007eb4   0x16c  csp_io.o [1]
+  .text              ro code  0x08008020     0x2  usart_stm32.o [1]
+  .rodata            const    0x08008022     0x1  shell_fun.o [1]
+  .text              ro code  0x08008024   0x128  csp_rtable_static.o [1]
+  .text              ro code  0x0800814c   0x354  csp_route.o [1]
+  .text              ro code  0x080084a0   0x2fc  csp_conn.o [1]
+  .text              ro code  0x0800879c    0xf4  csp_iflist.o [1]
+  .text              ro code  0x08008890     0x8  csp_time.o [1]
+  .text              ro code  0x08008898    0xb0  rand.o [3]
+  .text              ro code  0x08008948    0xa6  ABImemcpy.o [5]
+  .text              ro code  0x080089ee    0x3a  csp_endian.o [1]
+  .text              ro code  0x08008a28    0xfc  csp_qfifo.o [1]
+  .text              ro code  0x08008b24   0xdd6  xprintffull_nomb.o [3]
+  .text              ro code  0x080098fc    0x34  getchar.o [3]
+  .text              ro code  0x08009930    0x28  putchar.o [3]
+  .text              ro code  0x08009958    0xcc  mktime.o [3]
+  .text              ro code  0x08009a24    0x1a  localtim.o [3]
+  .text              ro code  0x08009a3e    0x38  heap_3.o [1]
+  .text              ro code  0x08009a76    0x98  list.o [1]
+  .text              ro code  0x08009b10    0x44  clock.o [1]
+  CODE               ro code  0x08009b54    0x88  portasm.o [1]
+  .text              ro code  0x08009bdc    0xc8  bsp_time.o [1]
+  .text              ro code  0x08009ca4    0x10  csp_malloc.o [1]
+  .text              ro code  0x08009cb4    0x46  csp_queue.o [1]
+  .text              ro code  0x08009cfc    0x4c  csp_port.o [1]
+  .text              ro code  0x08009d48    0xf0  csp_crc32.o [1]
+  .text              ro code  0x08009e38    0x5c  csp_udp.o [1]
+  .text              ro code  0x08009e94    0x20  csp_thread.o [1]
+  .text              ro code  0x08009eb4    0xa0  csp_semaphore.o [1]
+  .text              ro code  0x08009f54    0x1a  U32ToDbl.o [4]
+  .text              ro code  0x08009f70   0x246  DblDiv.o [4]
+  .text              ro code  0x0800a1b8    0x44  snprintf.o [3]
+  .text              ro code  0x0800a1fc    0x16  strchr.o [5]
+  .text              ro code  0x0800a214    0x44  xfail_s.o [3]
+  .text              ro code  0x0800a258    0x58  memchr.o [5]
+  .text              ro code  0x0800a2b0    0xee  I64DivMod.o [5]
+  .text              ro code  0x0800a3a0   0x1a2  DblMul.o [4]
+  .text              ro code  0x0800a544    0x70  frexp.o [4]
+  .text              ro code  0x0800a5b4    0x2e  DblCmpLe.o [4]
+  .text              ro code  0x0800a5e4    0x2e  DblCmpGe.o [4]
+  .text              ro code  0x0800a614   0x13a  ldexp.o [4]
+  .text              ro code  0x0800a750    0x3a  DblToS32.o [4]
+  .text              ro code  0x0800a78c    0x22  S32ToDbl.o [4]
+  .text              ro code  0x0800a7b0    0xe2  DblSub.o [4]
+  .text              ro code  0x0800a894    0x28  DblToU32.o [4]
+  .text              ro code  0x0800a8bc     0xe  div.o [3]
+  .text              ro code  0x0800a8cc    0x6c  xDaysTo.o [3]
+  .text              ro code  0x0800a938   0x108  xttotm.o [3]
+  .text              ro code  0x0800aa40     0x4  xTzoff_nop.o [3]
+  .text              ro code  0x0800aa44     0x2  I64DivZer.o [5]
+  .text              ro code  0x0800aa48   0x168  DblAdd.o [4]
+  .text              ro code  0x0800abb0     0x6  xisdst_nop.o [3]
+  .text              ro code  0x0800abb8   0x81c  xscanflarge_nomb.o [3]
+  .text              ro code  0x0800b3d4    0x7a  xlocale_c.o [3]
+  .text              ro code  0x0800b44e    0x84  iar_Stolx.o [3]
+  .text              ro code  0x0800b4d4   0x170  iar_Stoulx.o [3]
+  .text              ro code  0x0800b644    0x14  xencoding_8859_1.o [3]
+  .rodata            const    0x0800b658   0x400  csp_crc32.o [1]
+  .text              ro code  0x0800ba58   0x32c  shell_fun.o [1]
+  .text              ro code  0x0800bd84    0x28  sscanf.o [3]
+  .text              ro code  0x0800bdac     0x6  ABImemclr4.o [5]
+  .text              ro code  0x0800bdb4    0x4a  strcmp.o [5]
+  .text              ro code  0x0800be00    0x32  ABImemset48.o [5]
+  .rodata            const    0x0800be34    0xcc  shell_fun.o [1]
+  .rodata            const    0x0800bf00    0xa8  stm32f10x_gpio.o [1]
+  .rodata            const    0x0800bfa8    0xa8  stm32f10x_rcc.o [1]
+  .rodata            const    0x0800c050    0x9c  misc.o [1]
+  .rodata            const    0x0800c0ec    0x84  csp_iflist.o [1]
+  .rodata            const    0x0800c170    0x64  csp_io.o [1]
+  .rodata            const    0x0800c1d4    0x60  csp_io.o [1]
+  .rodata            const    0x0800c234    0x60  csp_route.o [1]
+  .rodata            const    0x0800c294    0x58  csp_route.o [1]
+  .rodata            const    0x0800c2ec    0x58  osapi_freertos.o [1]
+  .rodata            const    0x0800c344    0x54  csp_route.o [1]
+  .rodata            const    0x0800c398    0x4c  osapi_freertos.o [1]
+  .rodata            const    0x0800c3e4    0x4c  shell_fun.o [1]
+  .rodata            const    0x0800c430    0x40  can.o [1]
+  .rodata            const    0x0800c470    0x40  csp_io.o [1]
+  .rodata            const    0x0800c4b0    0x40  csp_route.o [1]
+  .text              ro code  0x0800c4f0    0x40  zero_init3.o [5]
+  .rodata            const    0x0800c530    0x38  can.o [1]
+  .rodata            const    0x0800c568    0x38  can.o [1]
+  .rodata            const    0x0800c5a0    0x38  can.o [1]
+  .rodata            const    0x0800c5d8    0x38  can.o [1]
+  .rodata            const    0x0800c610    0x38  shell_fun.o [1]
+  .rodata            const    0x0800c648    0x34  csp_qfifo.o [1]
+  .text              ro code  0x0800c67c    0x34  csp_if_lo.o [1]
+  .rodata            const    0x0800c6b0    0x30  can.o [1]
+  .rodata            const    0x0800c6e0    0x30  can.o [1]
+  .rodata            const    0x0800c710    0x30  can.o [1]
+  .rodata            const    0x0800c740    0x30  csp_conn.o [1]
+  .rodata            const    0x0800c770    0x30  csp_route.o [1]
+  .rodata            const    0x0800c7a0    0x30  main.o [1]
+  .rodata            const    0x0800c7d0    0x2c  can.o [1]
+  .rodata            const    0x0800c7fc    0x2c  can.o [1]
+  .rodata            const    0x0800c828    0x2c  can.o [1]
+  .rodata            const    0x0800c854    0x2c  csp_qfifo.o [1]
+  .rodata            const    0x0800c880    0x2c  csp_route.o [1]
+  .rodata            const    0x0800c8ac    0x28  can.o [1]
+  .rodata            const    0x0800c8d4    0x28  csp_buffer.o [1]
+  .rodata            const    0x0800c8fc    0x28  csp_buffer.o [1]
+  .rodata            const    0x0800c924    0x28  csp_io.o [1]
+  .rodata            const    0x0800c94c    0x28  csp_qfifo.o [1]
+  .rodata            const    0x0800c974    0x28  csp_rtable_static.o [1]
+  .rodata            const    0x0800c99c    0x28  csp_udp.o [1]
+  .rodata            const    0x0800c9c4    0x28  shell_fun.o [1]
+  .text              ro code  0x0800c9ec    0x28  data_init.o [5]
+  .rodata            const    0x0800ca14    0x24  csp_buffer.o [1]
+  .rodata            const    0x0800ca38    0x24  csp_buffer.o [1]
+  .rodata            const    0x0800ca5c    0x24  csp_conn.o [1]
+  .rodata            const    0x0800ca80    0x24  csp_conn.o [1]
+  .rodata            const    0x0800caa4    0x24  csp_conn.o [1]
+  .rodata            const    0x0800cac8    0x24  main.o [1]
+  .rodata            const    0x0800caec    0x24  main.o [1]
+  .iar.init_table    const    0x0800cb10    0x20  - Linker created -
+  .rodata            const    0x0800cb30    0x20  can.o [1]
+  .rodata            const    0x0800cb50    0x20  csp_buffer.o [1]
+  .rodata            const    0x0800cb70    0x20  csp_buffer.o [1]
+  .rodata            const    0x0800cb90    0x20  csp_conn.o [1]
+  .rodata            const    0x0800cbb0    0x20  csp_conn.o [1]
+  .rodata            const    0x0800cbd0    0x20  csp_route.o [1]
+  .rodata            const    0x0800cbf0    0x20  csp_route.o [1]
+  .rodata            const    0x0800cc10    0x20  csp_udp.o [1]
+  .rodata            const    0x0800cc30    0x20  main.o [1]
+  .rodata            const    0x0800cc50    0x20  osapi_freertos.o [1]
+  .rodata            const    0x0800cc70    0x1c  csp_conn.o [1]
+  .rodata            const    0x0800cc8c    0x1c  csp_conn.o [1]
+  .rodata            const    0x0800cca8    0x1c  csp_route.o [1]
+  .rodata            const    0x0800ccc4    0x1c  csp_route.o [1]
+  .rodata            const    0x0800cce0    0x1c  csp_rtable_static.o [1]
+  .rodata            const    0x0800ccfc    0x1c  main.o [1]
+  .rodata            const    0x0800cd18    0x1c  main.o [1]
+  .rodata            const    0x0800cd34    0x1c  osapi_freertos.o [1]
+  .rodata            const    0x0800cd50    0x1c  shell_fun.o [1]
+  .text              ro code  0x0800cd6c    0x1a  cmain.o [5]
+  .text              ro code  0x0800cd86     0x4  low_level_init.o [3]
+  .text              ro code  0x0800cd8a     0x4  exit.o [3]
+  .text              ro code  0x0800cd90     0xa  cexit.o [5]
+  .rodata            const    0x0800cd9c    0x18  csp_debug.o [1]
+  .rodata            const    0x0800cdb4    0x18  csp_io.o [1]
+  .rodata            const    0x0800cdcc    0x18  csp_io.o [1]
+  .rodata            const    0x0800cde4    0x18  csp_route.o [1]
+  .rodata            const    0x0800cdfc    0x18  shell_fun.o [1]
+  .rodata            const    0x0800ce14    0x18  shell_fun.o [1]
+  .text              ro code  0x0800ce2c    0x16  xprout.o [3]
+  .rodata            const    0x0800ce44    0x14  can.o [1]
+  .rodata            const    0x0800ce58    0x14  can.o [1]
+  .rodata            const    0x0800ce6c    0x14  csp_buffer.o [1]
+  .rodata            const    0x0800ce80    0x14  csp_conn.o [1]
+  .rodata            const    0x0800ce94    0x14  csp_debug.o [1]
+  .rodata            const    0x0800cea8    0x14  csp_rtable_static.o [1]
+  .rodata            const    0x0800cebc    0x14  osapi_freertos.o [1]
+  .rodata            const    0x0800ced0    0x14  osapi_freertos.o [1]
+  .rodata            const    0x0800cee4    0x14  shell.o [1]
+  .rodata            const    0x0800cef8    0x14  shell.o [1]
+  .rodata            const    0x0800cf0c    0x14  shell_fun.o [1]
+  .rodata            const    0x0800cf20    0x14  shell_fun.o [1]
+  .rodata            const    0x0800cf34    0x14  shell_fun.o [1]
+  .rodata            const    0x0800cf48    0x14  shell_fun.o [1]
+  .rodata            const    0x0800cf5c    0x10  csp_buffer.o [1]
+  .rodata            const    0x0800cf6c    0x10  csp_rtable_static.o [1]
+  .rodata            const    0x0800cf7c    0x10  shell_fun.o [1]
+  .rodata            const    0x0800cf8c    0x10  shell_fun.o [1]
+  .rodata            const    0x0800cf9c    0x10  shell_fun.o [1]
+  .rodata            const    0x0800cfac    0x10  shell_fun.o [1]
+  .rodata            const    0x0800cfbc    0x10  shell_fun.o [1]
+  .text              ro code  0x0800cfcc    0x10  startup_stm32f10x_hd.o [1]
+  .rodata            const    0x0800cfdc     0xc  csp_buffer.o [1]
+  .rodata            const    0x0800cfe8     0xc  csp_buffer.o [1]
+  .rodata            const    0x0800cff4     0xc  csp_semaphore.o [1]
+  .rodata            const    0x0800d000     0xc  csp_semaphore.o [1]
+  .rodata            const    0x0800d00c     0xc  csp_system.o [1]
+  .rodata            const    0x0800d018     0xc  main.o [1]
+  .rodata            const    0x0800d024     0xc  osapi_freertos.o [1]
+  .rodata            const    0x0800d030     0xc  shell.o [1]
+  .rodata            const    0x0800d03c     0xc  shell_fun.o [1]
+  .rodata            const    0x0800d048     0xc  shell_fun.o [1]
+  .rodata            const    0x0800d054     0xc  shell_fun.o [1]
+  .rodata            const    0x0800d060     0xc  shell_fun.o [1]
+  .rodata            const    0x0800d06c     0xc  shell_fun.o [1]
+  .text              ro code  0x0800d078     0xc  cstartup_M.o [5]
+  .rodata            const    0x0800d084     0x8  csp_if_lo.o [1]
+  .rodata            const    0x0800d08c     0x8  csp_iflist.o [1]
+  .rodata            const    0x0800d094     0x8  driver_time.o [1]
+  .rodata            const    0x0800d09c     0x8  main.o [1]
+  .rodata            const    0x0800d0a4     0x8  main.o [1]
+  .rodata            const    0x0800d0ac     0x8  main.o [1]
+  .rodata            const    0x0800d0b4     0x8  main.o [1]
+  .rodata            const    0x0800d0bc     0x8  osapi_freertos.o [1]
+  .rodata            const    0x0800d0c4     0x8  osapi_freertos.o [1]
+  .rodata            const    0x0800d0cc     0x8  osapi_freertos.o [1]
+  .rodata            const    0x0800d0d4     0x8  osapi_freertos.o [1]
+  .rodata            const    0x0800d0dc     0x8  shell.o [1]
+  .rodata            const    0x0800d0e4     0x8  shell.o [1]
+  .rodata            const    0x0800d0ec     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d0f4     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d0fc     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d104     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d10c     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d114     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d11c     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d124     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d12c     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d134     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d13c     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d144     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d14c     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d154     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d15c     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d164     0x8  shell_fun.o [1]
+  .rodata            const    0x0800d16c     0x8  tasks.o [1]
+  .rodata            const    0x0800d174     0x4  can.o [1]
+  .rodata            const    0x0800d178     0x4  shell_fun.o [1]
+  .rodata            const    0x0800d17c     0x4  shell_fun.o [1]
+  .rodata            const    0x0800d180     0x4  shell_fun.o [1]
+  .rodata            const    0x0800d184     0x4  shell_fun.o [1]
+  .text              ro code  0x0800d188     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d18c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d190     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d194     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d198     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d19c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1a0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1a4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1a8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1ac     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1b0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1b4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1b8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1bc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1c0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1c4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1c8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1cc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1d0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1d4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1d8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1dc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1e0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1e4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1e8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1ec     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1f0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1f4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1f8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d1fc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d200     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d204     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d208     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d20c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d210     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d214     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d218     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d21c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d220     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d224     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d228     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d22c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d230     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d234     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d238     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d23c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d240     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d244     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d248     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d24c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d250     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d254     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d258     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d25c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d260     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800d264     0x4  startup_stm32f10x_hd.o [1]
+  .rodata            const    0x0800d268     0x0  zero_init3.o [5]
+  .rodata            const    0x0800d268     0x0  lz77_init_single.o [5]
+  Initializer bytes  const    0x0800d268   0x11b  <for P2-1>
+                            - 0x0800d383  0xd253
+
+"P2", part 1 of 3:                         0x360
+  P2-1                        0x20000000   0x360  <Init block>
+    .data            inited   0x20000000    0x30  bsp_sci.o [1]
+    .data            inited   0x20000030    0xa0  bsp_sci.o [1]
+    .data            inited   0x200000d0    0x3c  can.o [1]
+    .data            inited   0x2000010c    0x3c  csp_if_lo.o [1]
+    .data            inited   0x20000148    0x18  driver_can.o [1]
+    .data            inited   0x20000160    0x3c  driver_uart.o [1]
+    .data            inited   0x2000019c    0x3c  driver_uart.o [1]
+    .data            inited   0x200001d8    0x3c  driver_uart.o [1]
+    .data            inited   0x20000214    0x3c  driver_uart.o [1]
+    .data            inited   0x20000250    0x3c  driver_uart.o [1]
+    .data            inited   0x2000028c    0x3c  driver_uart.o [1]
+    .data            inited   0x200002c8    0x18  driver_uart.o [1]
+    .data            inited   0x200002e0     0x4  port.o [1]
+    .data            inited   0x200002e4     0x4  shell.o [1]
+    .data            inited   0x200002e8    0x40  shell.o [1]
+    .data            inited   0x20000328    0x10  stm32f10x_rcc.o [1]
+    .data            inited   0x20000338     0x4  stm32f10x_rcc.o [1]
+    .data            inited   0x2000033c     0x4  system_stm32f10x.o [1]
+    .data            inited   0x20000340    0x10  system_stm32f10x.o [1]
+    .data            inited   0x20000350     0x8  rand.o [3]
+    .data            inited   0x20000358     0x4  getchar.o [3]
+    .data            inited   0x2000035c     0x1  kiss.o [1]
+    .data            inited   0x2000035d     0x1  kiss.o [1]
+    .data            inited   0x2000035e     0x1  kiss.o [1]
+    .data            inited   0x2000035f     0x1  retarget.o [1]
+                            - 0x20000360   0x360
+
+"P2", part 2 of 3:                        0xa000
+  CSTACK                      0x20000360  0x1000  <Block>
+    CSTACK           uninit   0x20000360  0x1000  <Block tail>
+  HEAP                        0x20001360  0x9000  <Block>
+    HEAP             uninit   0x20001360  0x9000  <Block tail>
+                            - 0x2000a360  0xa000
+
+"P2", part 3 of 3:                        0x5994
+  .bss               zero     0x2000a360  0x2040  driver_can.o [1]
+  .bss               zero     0x2000c3a0  0x1020  driver_uart.o [1]
+  .bss               zero     0x2000d3c0  0x1020  driver_uart.o [1]
+  .bss               zero     0x2000e3e0  0x1020  main.o [1]
+  .bss               zero     0x2000f400   0x1d8  dlmalloc.o [3]
+  .bss               zero     0x2000f5d8   0x108  csp_port.o [1]
+  .bss               zero     0x2000f6e0   0x100  driver_can.o [1]
+  .bss               zero     0x2000f7e0    0xa8  csp_rtable_static.o [1]
+  .bss               zero     0x2000f888    0x84  rand.o [3]
+  .bss               zero     0x2000f90c    0x80  csp_conn.o [1]
+  .bss               zero     0x2000f98c    0x80  driver_uart.o [1]
+  .bss               zero     0x2000fa0c    0x70  driver_can.o [1]
+  .bss               zero     0x2000fa7c    0x64  tasks.o [1]
+  .bss               zero     0x2000fae0    0x50  can.o [1]
+  .bss               zero     0x2000fb30    0x40  driver_uart.o [1]
+  .bss               zero     0x2000fb70    0x2c  xttotm.o [3]
+  .bss               zero     0x2000fb9c    0x18  dlmalloc.o [3]
+  .bss               zero     0x2000fbb4    0x14  osapi_freertos.o [1]
+  .bss               zero     0x2000fbc8    0x14  tasks.o [1]
+  .bss               zero     0x2000fbdc    0x14  tasks.o [1]
+  .bss               zero     0x2000fbf0    0x14  tasks.o [1]
+  .bss               zero     0x2000fc04    0x14  tasks.o [1]
+  .bss               zero     0x2000fc18    0x14  tasks.o [1]
+  .bss               zero     0x2000fc2c     0x8  clock.o [1]
+  .bss               zero     0x2000fc34     0x8  csp_debug.o [1]
+  .bss               zero     0x2000fc3c     0x4  bsp_time.o [1]
+  .bss               zero     0x2000fc40     0x4  can.o [1]
+  .bss               zero     0x2000fc44     0x4  can.o [1]
+  .bss               zero     0x2000fc48     0x4  can.o [1]
+  .bss               zero     0x2000fc4c     0x4  can.o [1]
+  .bss               zero     0x2000fc50     0x4  csp_buffer.o [1]
+  .bss               zero     0x2000fc54     0x4  csp_buffer.o [1]
+  .bss               zero     0x2000fc58     0x4  csp_buffer.o [1]
+  .bss               zero     0x2000fc5c     0x4  csp_buffer.o [1]
+  .bss               zero     0x2000fc60     0x4  csp_conn.o [1]
+  .bss               zero     0x2000fc64     0x4  csp_conn.o [1]
+  .bss               zero     0x2000fc68     0x4  csp_debug.o [1]
+  .bss               zero     0x2000fc6c     0x4  csp_iflist.o [1]
+  .bss               zero     0x2000fc70     0x4  csp_qfifo.o [1]
+  .bss               zero     0x2000fc74     0x4  csp_route.o [1]
+  .bss               zero     0x2000fc78     0x4  driver_can.o [1]
+  .bss               zero     0x2000fc7c     0x4  driver_time.o [1]
+  .bss               zero     0x2000fc80     0x4  driver_time.o [1]
+  .bss               zero     0x2000fc84     0x4  driver_time.o [1]
+  .bss               zero     0x2000fc88     0x4  osapi_freertos.o [1]
+  .bss               zero     0x2000fc8c     0x4  osapi_freertos.o [1]
+  .bss               zero     0x2000fc90     0x4  port.o [1]
+  .bss               zero     0x2000fc94     0x4  shell.o [1]
+  .bss               zero     0x2000fc98     0x4  tasks.o [1]
+  .bss               zero     0x2000fc9c     0x4  tasks.o [1]
+  .bss               zero     0x2000fca0     0x4  tasks.o [1]
+  .bss               zero     0x2000fca4     0x4  tasks.o [1]
+  .bss               zero     0x2000fca8     0x4  tasks.o [1]
+  .bss               zero     0x2000fcac     0x4  tasks.o [1]
+  .bss               zero     0x2000fcb0     0x4  tasks.o [1]
+  .bss               zero     0x2000fcb4     0x4  tasks.o [1]
+  .bss               zero     0x2000fcb8     0x4  tasks.o [1]
+  .bss               zero     0x2000fcbc     0x4  tasks.o [1]
+  .bss               zero     0x2000fcc0     0x4  tasks.o [1]
+  .bss               zero     0x2000fcc4     0x4  tasks.o [1]
+  .bss               zero     0x2000fcc8     0x4  tasks.o [1]
+  .bss               zero     0x2000fccc     0x4  tasks.o [1]
+  .bss               zero     0x2000fcd0     0x4  tasks.o [1]
+  .bss               zero     0x2000fcd4     0x4  tasks.o [1]
+  .bss               zero     0x2000fcd8     0x4  tasks.o [1]
+  .bss               zero     0x2000fcdc     0x4  tasks.o [1]
+  .bss               zero     0x2000fce0     0x4  xgetmemchunk.o [3]
+  .bss               zero     0x2000fce4     0x4  xfail_s.o [3]
+  .bss               zero     0x2000fce8     0x1  can_stm32.o [1]
+  .bss               zero     0x2000fce9     0x1  csp_conn.o [1]
+  .bss               zero     0x2000fcea     0x1  csp_conn.o [1]
+  .bss               zero     0x2000fceb     0x1  csp_io.o [1]
+  .bss               zero     0x2000fcec     0x1  driver_uart.o [1]
+  .bss               zero     0x2000fced     0x1  driver_uart.o [1]
+  .bss               zero     0x2000fcee     0x1  driver_uart.o [1]
+  .bss               zero     0x2000fcef     0x1  driver_uart.o [1]
+  .bss               zero     0x2000fcf0     0x1  driver_uart.o [1]
+  .bss               zero     0x2000fcf1     0x1  driver_uart.o [1]
+  .bss               zero     0x2000fcf2     0x1  driver_uart.o [1]
+  .bss               zero     0x2000fcf3     0x1  driver_uart.o [1]
+                            - 0x2000fcf4  0x5994
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x5994:
+          0x2000a360  0x5994
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x11b (32% of destination):
+          0x0800d268   0x11b
+    1 destination range, total size 0x360:
+          0x20000000   0x360
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj: [1]
+    bsp_sci.o                 4 708       68      208
+    bsp_time.o                  200                 4
+    can.o                     2 176      699      156
+    can_stm32.o                 272                 1
+    clock.o                      68                 8
+    csp_buffer.o                556      276       16
+    csp_conn.o                  764      296      138
+    csp_crc32.o                 240    1 024
+    csp_debug.o                 244       44       12
+    csp_endian.o                 58
+    csp_if_lo.o                  52       28       60
+    csp_iflist.o                244      140        4
+    csp_io.o                    364      348        1
+    csp_malloc.o                 16
+    csp_port.o                   76               264
+    csp_qfifo.o                 252      136        4
+    csp_queue.o                  70
+    csp_route.o                 852      568        4
+    csp_rtable_static.o         296      104      168
+    csp_semaphore.o             160       24
+    csp_system.o                132       12
+    csp_thread.o                 32
+    csp_time.o                    8
+    csp_udp.o                    92       72
+    driver_can.o              3 296        8    8 652
+    driver_time.o               292        8       12
+    driver_uart.o             2 832      126    8 840
+    hal_uart.o                  116
+    heap_3.o                     56
+    kiss.o                      180        1        3
+    list.o                      152
+    main.o                    1 018      252    4 128
+    misc.o                      228      156
+    osapi_freertos.o          1 752      308       28
+    port.o                      292        1        8
+    portasm.o                   136
+    queue.o                   1 796
+    retarget.o                  192        1        1
+    shell.o                     624       90       72
+    shell_fun.o                 812      819
+    startup_stm32f10x_hd.o      544
+    stm32f10x_gpio.o          1 260      168
+    stm32f10x_rcc.o             516      175       20
+    system_stm32f10x.o          496        6       20
+    tasks.o                   3 164        8      272
+    usart_stm32.o                 2
+    -------------------------------------------------
+    Total:                   31 688    5 966   23 104
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    abort.o                       6
+    div.o                        14
+    dlmalloc.o                5 350               496
+    exit.o                        4
+    getchar.o                    52        1        4
+    heaptramp0.o                  4
+    iar_Stolx.o                 132
+    iar_Stoulx.o                368
+    isprint.o                    62
+    localtim.o                   26
+    low_level_init.o              4
+    mktime.o                    204
+    printf.o                     40
+    putchar.o                    40
+    rand.o                      176        3      140
+    snprintf.o                   68
+    sscanf.o                     40
+    vprintf.o                    32
+    xDaysTo.o                   108
+    xTzoff_nop.o                  4
+    xencoding_8859_1.o           20
+    xfail_s.o                    68                 4
+    xgetmemchunk.o               44                 4
+    xisdst_nop.o                  6
+    xlocale_c.o                 122
+    xprintffull_nomb.o        3 542
+    xprout.o                     22
+    xscanflarge_nomb.o        2 076
+    xsnprout.o                   26
+    xsscin.o                     30
+    xttotm.o                    264                44
+    -------------------------------------------------
+    Total:                   12 954        4      692
+
+m7M_tl.a: [4]
+    DblAdd.o                    360
+    DblCmpGe.o                   46
+    DblCmpLe.o                   46
+    DblDiv.o                    582
+    DblMul.o                    418
+    DblSub.o                    226
+    DblToS32.o                   58
+    DblToU32.o                   40
+    S32ToDbl.o                   34
+    U32ToDbl.o                   26
+    frexp.o                     112
+    ldexp.o                     314
+    -------------------------------------------------
+    Total:                    2 262
+
+rt7M_tl.a: [5]
+    ABImemclr4.o                  6
+    ABImemcpy.o                 166
+    ABImemset.o                 102
+    ABImemset48.o                50
+    I64DivMod.o                 238
+    I64DivZer.o                   2
+    XXexit.o                     12
+    cexit.o                      10
+    cmain.o                      26
+    cstartup_M.o                 12
+    data_init.o                  40
+    lz77_init_single.o          122
+    memchr.o                     88
+    memcmp.o                    104
+    strchr.o                     22
+    strcmp.o                     74
+    strlen.o                     54
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                    1 192
+
+    Gaps                         43        6
+    Linker created                        32   40 960
+-----------------------------------------------------
+    Grand Total:             48 139    6 008   64 756
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x0800cb10           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0800cb30           --   Gb  - Linker created -
+?main                   0x0800cd6d          Code  Gb  cmain.o [5]
+ADCPrescTable           0x20000338     0x4  Data  Lc  stm32f10x_rcc.o [1]
+AHBPrescTable           0x20000340    0x10  Data  Gb  system_stm32f10x.o [1]
+APBAHBPrescTable        0x20000328    0x10  Data  Lc  stm32f10x_rcc.o [1]
+BSP_SCI_CheckSend       0x08001fdf    0xfc  Code  Gb  bsp_sci.o [1]
+BSP_SCI_EnableRx        0x080026d5   0x176  Code  Gb  bsp_sci.o [1]
+BSP_SCI_EnableRxErr     0x08002851    0x28  Code  Gb  bsp_sci.o [1]
+BSP_SCI_EnableTx        0x08002531   0x18e  Code  Gb  bsp_sci.o [1]
+BSP_SCI_Init            0x08001d4d   0x23a  Code  Gb  bsp_sci.o [1]
+BSP_SCI_Send            0x08001f87    0x58  Code  Gb  bsp_sci.o [1]
+BSP_SCI_SetCfg          0x08001655   0x6f8  Code  Gb  bsp_sci.o [1]
+BSP_SCI_SetRxCallBack   0x080024df    0x1e  Code  Gb  bsp_sci.o [1]
+BSP_SCI_SetRxErrCallBack
+                        0x08002505    0x1e  Code  Gb  bsp_sci.o [1]
+BSP_SCI_SetTxCompleteCallBack
+                        0x080024c1    0x1e  Code  Gb  bsp_sci.o [1]
+CAN1_RX1_IRQHandler     0x08005b6b   0x10c  Code  Gb  driver_can.o [1]
+CAN1_SCE_IRQHandler     0x08005c77    0x2a  Code  Gb  driver_can.o [1]
+CSTACK$$Base            0x20000360           --   Gb  - Linker created -
+CSTACK$$Limit           0x20001360           --   Gb  - Linker created -
+CacheMore               0x0800b3d5    0x24  Code  Lc  xlocale_c.o [3]
+FreeRTOS_errno          0x2000fca8     0x4  Data  Gb  tasks.o [1]
+GPIO_DeInit             0x08002abd   0x100  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_Init               0x08002bbd   0x16e  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_PinRemapConfig     0x08002d4d   0x1c6  Code  Gb  stm32f10x_gpio.o [1]
+HAL_UART_CheckSend      0x080050ab     0xc  Code  Gb  hal_uart.o [1]
+HAL_UART_EnableRx       0x080050f9     0xe  Code  Gb  hal_uart.o [1]
+HAL_UART_EnableRxErr    0x08005107     0xe  Code  Gb  hal_uart.o [1]
+HAL_UART_EnableTx       0x080050eb     0xe  Code  Gb  hal_uart.o [1]
+HAL_UART_Init           0x080050a1     0xa  Code  Gb  hal_uart.o [1]
+HAL_UART_Send           0x080050b7     0xc  Code  Gb  hal_uart.o [1]
+HAL_UART_SetCfg         0x080050e1     0xa  Code  Gb  hal_uart.o [1]
+HAL_UART_SetRxCallBack  0x080050cd     0xa  Code  Gb  hal_uart.o [1]
+HAL_UART_SetRxErrCallBack
+                        0x080050d7     0xa  Code  Gb  hal_uart.o [1]
+HAL_UART_SetTxCmpISRCallBack
+                        0x080050c3     0xa  Code  Gb  hal_uart.o [1]
+HEAP$$Base              0x20001360           --   Gb  - Linker created -
+HEAP$$Limit             0x2000a360           --   Gb  - Linker created -
+HelpFun                 0x0800ba75    0x66  Code  Gb  shell_fun.o [1]
+LoadInt                 0x08008cc3    0x7a  Code  Lc  xprintffull_nomb.o [3]
+NVIC_Init               0x08002fdd    0x96  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x08002fa9    0x34  Code  Gb  misc.o [1]
+NVIC_SystemReset        0x0800ba59    0x1c  Code  Lc  shell_fun.o [1]
+OsClrTaskDebug          0x080042b3    0x2a  Code  Gb  osapi_freertos.o [1]
+OsFree                  0x080040c9    0x14  Code  Gb  osapi_freertos.o [1]
+OsGetTaskId             0x08004169    0x7e  Code  Gb  osapi_freertos.o [1]
+OsGetTaskName           0x080040ff    0x6a  Code  Gb  osapi_freertos.o [1]
+OsLock                  0x08004769     0x2  Code  Gb  osapi_freertos.o [1]
+OsMalloc                0x080040a9    0x20  Code  Gb  osapi_freertos.o [1]
+OsMemset                0x08004095    0x14  Code  Gb  osapi_freertos.o [1]
+OsPrintf                0x080042dd    0xc2  Code  Gb  osapi_freertos.o [1]
+OsPrintfBuf             0x0800445d   0x16e  Code  Gb  osapi_freertos.o [1]
+OsPrintfMsgInfo         0x08004763     0x2  Code  Gb  osapi_freertos.o [1]
+OsPrintfMutexInfo       0x08004765     0x2  Code  Gb  osapi_freertos.o [1]
+OsPrintfSemInfo         0x08004761     0x2  Code  Gb  osapi_freertos.o [1]
+OsPrintfTaskInfo        0x080045d1   0x140  Code  Gb  osapi_freertos.o [1]
+OsPrintfTimerInfo       0x08004767     0x2  Code  Gb  osapi_freertos.o [1]
+OsPrintf_va             0x0800439f    0xbe  Code  Gb  osapi_freertos.o [1]
+OsSemCreate             0x080041e7     0xc  Code  Gb  osapi_freertos.o [1]
+OsSemPend               0x080041f3    0x34  Code  Gb  osapi_freertos.o [1]
+OsSemPost               0x08004227    0x50  Code  Gb  osapi_freertos.o [1]
+OsSetTaskDebug          0x08004277    0x3c  Code  Gb  osapi_freertos.o [1]
+OsTaskGetId             0x080040f3     0xc  Code  Gb  osapi_freertos.o [1]
+OsTimeDelay             0x080040dd    0x16  Code  Gb  osapi_freertos.o [1]
+OsUnLock                0x0800476b     0x2  Code  Gb  osapi_freertos.o [1]
+RCC_APB1PeriphClockCmd  0x080029ef    0x50  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08002997    0x58  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphResetCmd  0x08002a3f    0x50  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq       0x080028b9    0xde  Code  Gb  stm32f10x_rcc.o [1]
+Region$$Table$$Base     0x0800cb10           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800cb30           --   Gb  - Linker created -
+ResetFun                0x0800badb    0x14  Code  Gb  shell_fun.o [1]
+RunTimeFun              0x0800bd05    0x10  Code  Gb  shell_fun.o [1]
+SCI_CallBackLists       0x20000030    0xa0  Data  Gb  bsp_sci.o [1]
+Sci_Cfg                 0x20000000    0x30  Data  Gb  bsp_sci.o [1]
+SetCanidFun             0x0800baef    0x52  Code  Gb  shell_fun.o [1]
+SetCspDebugFun          0x0800bc31    0x32  Code  Gb  shell_fun.o [1]
+SetSysClock             0x08006339     0x8  Code  Lc  system_stm32f10x.o [1]
+SetSysClockTo72         0x08006341    0xe0  Code  Lc  system_stm32f10x.o [1]
+SetTimeFun              0x0800bc63    0x60  Code  Gb  shell_fun.o [1]
+SetdClrdFun             0x0800bb93    0x9e  Code  Gb  shell_fun.o [1]
+ShowHeapInfoFun         0x0800bb69     0x2  Code  Gb  shell_fun.o [1]
+ShowMem                 0x0800bb6b    0x28  Code  Gb  shell_fun.o [1]
+ShowMsgFun              0x0800bb51     0x8  Code  Gb  shell_fun.o [1]
+ShowMutexFun            0x0800bb59     0x8  Code  Gb  shell_fun.o [1]
+ShowPsFun               0x0800bb41     0x8  Code  Gb  shell_fun.o [1]
+ShowSemFun              0x0800bb49     0x8  Code  Gb  shell_fun.o [1]
+ShowTimeFun             0x0800bcc3    0x3c  Code  Gb  shell_fun.o [1]
+ShowTimerFun            0x0800bb61     0x8  Code  Gb  shell_fun.o [1]
+SystemCoreClock         0x2000033c     0x4  Data  Gb  system_stm32f10x.o [1]
+SystemCoreClockUpdate   0x080062b1    0x88  Code  Gb  system_stm32f10x.o [1]
+SystemInit              0x0800625d    0x54  Code  Gb  system_stm32f10x.o [1]
+TIM6_IRQHandler         0x08009c5f    0x20  Code  Gb  bsp_time.o [1]
+UART4_IRQHandler        0x08002339    0xc0  Code  Gb  bsp_sci.o [1]
+UART5_IRQHandler        0x08002405    0xbc  Code  Gb  bsp_sci.o [1]
+USART1_IRQHandler       0x080020e5    0xc0  Code  Gb  bsp_sci.o [1]
+USART2_IRQHandler       0x080021ad    0xc0  Code  Gb  bsp_sci.o [1]
+USART3_IRQHandler       0x08002271    0xc0  Code  Gb  bsp_sci.o [1]
+USB_HP_CAN1_TX_IRQHandler
+                        0x08005b69     0x2  Code  Gb  driver_can.o [1]
+USB_LP_CAN1_RX0_IRQHandler
+                        0x08005a5d   0x10c  Code  Gb  driver_can.o [1]
+_Encoding_8859_1_Mbrlen
+                        0x0800b64d     0x2  Code  Gb  xencoding_8859_1.o [3]
+_Encoding_8859_1_Mbtowc
+                        0x0800b645     0x8  Code  Gb  xencoding_8859_1.o [3]
+_GenldFullNoMb          0x08009627   0x248  Code  Lc  xprintffull_nomb.o [3]
+_GetN                   0x0800abb9    0x22  Code  Lc  xscanflarge_nomb.o [3]
+_GetintLargeNoMb        0x0800b12b   0x200  Code  Lc  xscanflarge_nomb.o [3]
+_GetstrLargeNoMb        0x0800ae75   0x2b6  Code  Lc  xscanflarge_nomb.o [3]
+_LdtobFullNoMb          0x080091ff   0x3fe  Code  Lc  xprintffull_nomb.o [3]
+_LitobFullNoMb          0x080090af   0x10a  Code  Lc  xprintffull_nomb.o [3]
+_PrintfFullNoMb         0x08008b25   0x190  Code  Gb  xprintffull_nomb.o [3]
+_Prout                  0x0800ce2d    0x16  Code  Gb  xprout.o [3]
+_PutcharsFullNoMb       0x0800986f    0x2e  Code  Lc  xprintffull_nomb.o [3]
+_PutfldFullNoMb         0x08008d3d   0x264  Code  Lc  xprintffull_nomb.o [3]
+_PuttxtFullNoMb         0x08008fa1   0x10e  Code  Lc  xprintffull_nomb.o [3]
+_Rand_idx               0x2000f908     0x4  Data  Lc  rand.o [3]
+_Rand_rv                0x2000f888    0x80  Data  Lc  rand.o [3]
+_Randinit               0x20000350     0x1  Data  Gb  rand.o [3]
+_Randseed               0x20000354     0x4  Data  Gb  rand.o [3]
+_SNProut                0x0800741f    0x1a  Code  Gb  xsnprout.o [3]
+_SScin                  0x08004077    0x1e  Code  Gb  xsscin.o [3]
+_ScanfLargeNoMb         0x0800abf5   0x234  Code  Gb  xscanflarge_nomb.o [3]
+_Ttotm_ts               0x2000fb70    0x2c  Data  Lc  xttotm.o [3]
+_Tzoff                  0x0800aa41     0x4  Code  Gb  xTzoff_nop.o [3]
+_UngetChar              0x20000358     0x4  Data  Lc  getchar.o [3]
+_UngetN                 0x0800abdb    0x1a  Code  Lc  xscanflarge_nomb.o [3]
+__aeabi_cdcmple         0x0800a5b5          Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x0800a5e5          Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0x0800a751          Code  Gb  DblToS32.o [4]
+__aeabi_d2uiz           0x0800a895          Code  Gb  DblToU32.o [4]
+__aeabi_ddiv            0x08009f71          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0800a3a1          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x0800a7b1          Code  Gb  DblSub.o [4]
+__aeabi_i2d             0x0800a78d          Code  Gb  S32ToDbl.o [4]
+__aeabi_ldiv0           0x0800aa45          Code  Gb  I64DivZer.o [5]
+__aeabi_memclr4         0x0800bdad          Code  Gb  ABImemclr4.o [5]
+__aeabi_memcpy          0x08008949          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x08008969          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x08008969          Code  Gb  ABImemcpy.o [5]
+__aeabi_memset          0x08004011          Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x08009f55          Code  Gb  U32ToDbl.o [4]
+__aeabi_uldivmod        0x0800a2b1          Code  Gb  I64DivMod.o [5]
+__cmain                 0x0800cd6d          Code  Gb  cmain.o [5]
+__data_GetMemChunk      0x0800161d    0x2c  Code  Gb  xgetmemchunk.o [3]
+__data_GetMemChunk::start
+                        0x2000fce0     0x4  Data  Lc  xgetmemchunk.o [3]
+__exit                  0x08001649          Code  Gb  XXexit.o [5]
+__iar_Daysto32          0x0800a8cd    0x3c  Code  Gb  xDaysTo.o [3]
+__iar_Fail_s            0x0800a215    0x1e  Code  Gb  xfail_s.o [3]
+__iar_Isdst32           0x0800abb1     0x6  Code  Gb  xisdst_nop.o [3]
+__iar_Memchr            0x0800a259          Code  Gb  memchr.o [5]
+__iar_Memset            0x08004011          Code  Gb  ABImemset.o [5]
+__iar_Memset4_word      0x0800be01          Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x0800be01          Code  Gb  ABImemset48.o [5]
+__iar_Memset_word       0x08004019          Code  Gb  ABImemset.o [5]
+__iar_Stolx             0x0800b44f    0x80  Code  Gb  iar_Stolx.o [3]
+__iar_Stoulx            0x0800b4d5   0x110  Code  Gb  iar_Stoulx.o [3]
+__iar_Strchr            0x0800a1fd          Code  Gb  strchr.o [5]
+__iar_Ttotm32           0x0800a939    0xca  Code  Gb  xttotm.o [3]
+__iar_dadd              0x0800a7c1          Code  Gb  DblSub.o [4]
+__iar_data_init3        0x0800c9ed    0x28  Code  Gb  data_init.o [5]
+__iar_dlfree            0x0800111b   0x4f0  Code  Gb  dlmalloc.o [3]
+__iar_dlmalloc          0x08000e63   0x2b8  Code  Gb  dlmalloc.o [3]
+__iar_dsub              0x0800aa49          Code  Gb  DblAdd.o [4]
+__iar_dsubStart         0x0800aa5b          Code  Gb  DblAdd.o [4]
+__iar_frexp             0x0800a551          Code  Gb  frexp.o [4]
+__iar_frexp64           0x0800a545          Code  Gb  frexp.o [4]
+__iar_frexpl            0x0800a551          Code  Gb  frexp.o [4]
+__iar_ldexp64           0x0800a615          Code  Gb  ldexp.o [4]
+__iar_lz77_init_single3
+                        0x08003487    0x7a  Code  Gb  lz77_init_single.o [5]
+__iar_program_start     0x0800d079          Code  Gb  cstartup_M.o [5]
+__iar_scalbln64         0x0800a615          Code  Gb  ldexp.o [4]
+__iar_scalbn64          0x0800a615          Code  Gb  ldexp.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001          Data  Gb  command line/config [2]
+__iar_zero_init3        0x0800c4f1    0x40  Code  Gb  zero_init3.o [5]
+__localtime32           0x08009a25    0x1a  Code  Gb  localtim.o [3]
+__low_level_init        0x0800cd87     0x4  Code  Gb  low_level_init.o [3]
+__mktime32              0x08009959    0xcc  Code  Gb  mktime.o [3]
+__read                  0x08005159    0x6c  Code  Gb  retarget.o [1]
+__vector_table          0x08000000          Data  Gb  startup_stm32f10x_hd.o [1]
+__write                 0x08005115    0x44  Code  Gb  retarget.o [1]
+_call_main              0x0800cd79          Code  Gb  cmain.o [5]
+_exit                   0x0800cd91          Code  Gb  cexit.o [5]
+_gLocale_mbtowc         0x0800b441     0xe  Code  Gb  xlocale_c.o [3]
+_gLocale_mbtowcInt      0x0800b3f9    0x48  Code  Gb  xlocale_c.o [3]
+_gm_                    0x2000f400   0x1d8  Data  Lc  dlmalloc.o [3]
+_main                   0x0800cd83          Code  Gb  cmain.o [5]
+abort                   0x08001617     0x6  Code  Gb  abort.o [3]
+add_segment             0x080004f1   0x20c  Code  Lc  dlmalloc.o [3]
+arr_conn                0x2000f90c    0x80  Data  Lc  csp_conn.o [1]
+assert_failed           0x08003419     0xe  Code  Gb  main.o [1]
+bsp_time6_init          0x08009bdd    0x7c  Code  Gb  bsp_time.o [1]
+bsp_time6_setcallback   0x08009c59     0x6  Code  Gb  bsp_time.o [1]
+buff_sum                0x0800308d    0x24  Code  Gb  main.o [1]
+can_init                0x08005561    0x1c  Code  Gb  can_stm32.o [1]
+can_pbuf                0x2000fae0    0x50  Data  Lc  can.o [1]
+can_pbuf_cleanup        0x080048f5    0x5c  Code  Gb  can.o [1]
+can_pbuf_find           0x080048bd    0x38  Code  Lc  can.o [1]
+can_pbuf_free           0x0800485f    0x2c  Code  Lc  can.o [1]
+can_pbuf_init           0x08004821    0x2e  Code  Lc  can.o [1]
+can_pbuf_new            0x0800488b    0x32  Code  Lc  can.o [1]
+can_pbuf_timestamp      0x0800484f    0x10  Code  Lc  can.o [1]
+can_process_frame       0x08004995   0x394  Code  Gb  can.o [1]
+can_rx_handle           0x0800546d    0x8e  Code  Gb  can_stm32.o [1]
+can_rx_handle::s_rx_idlenum
+                        0x2000fce8     0x1  Data  Lc  can_stm32.o [1]
+can_rxtask              0x08003301    0x10  Code  Lc  main.o [1]
+can_send                0x08005501    0x60  Code  Gb  can_stm32.o [1]
+can_tx_raw_data         0x08004f05   0x142  Code  Gb  can.o [1]
+can_txtask              0x08003311     0x8  Code  Lc  main.o [1]
+cmd_buf                 0x200002e8    0x40  Data  Lc  shell.o [1]
+cmd_buf_index           0x2000fc94     0x4  Data  Lc  shell.o [1]
+conn_lock               0x2000fc60     0x4  Data  Lc  csp_conn.o [1]
+count                   0x2000fc58     0x4  Data  Lc  csp_buffer.o [1]
+crc_tab                 0x0800b658   0x400  Data  Lc  csp_crc32.o [1]
+csp_bin_sem_create      0x08009ecf    0x26  Code  Gb  csp_semaphore.o [1]
+csp_bin_sem_post        0x08009f25    0x26  Code  Gb  csp_semaphore.o [1]
+csp_bin_sem_wait        0x08009ef5    0x30  Code  Gb  csp_semaphore.o [1]
+csp_buffer_free         0x08007de9    0x94  Code  Gb  csp_buffer.o [1]
+csp_buffer_free_isr     0x08007d97    0x52  Code  Gb  csp_buffer.o [1]
+csp_buffer_get          0x08007d25    0x72  Code  Gb  csp_buffer.o [1]
+csp_buffer_init         0x08007c89    0x9c  Code  Gb  csp_buffer.o [1]
+csp_buffer_pool         0x2000fc54     0x4  Data  Lc  csp_buffer.o [1]
+csp_buffers             0x2000fc50     0x4  Data  Lc  csp_buffer.o [1]
+csp_bytesize            0x080087d3    0x4e  Code  Gb  csp_iflist.o [1]
+csp_can_init            0x08004e89    0x7c  Code  Gb  can.o [1]
+csp_can_tx              0x08004d29   0x160  Code  Gb  can.o [1]
+csp_close               0x080086c7    0x56  Code  Gb  csp_conn.o [1]
+csp_conn_allocate       0x0800861d    0x84  Code  Gb  csp_conn.o [1]
+csp_conn_allocate::csp_conn_last_given
+                        0x2000fcea     0x1  Data  Lc  csp_conn.o [1]
+csp_conn_enqueue_packet
+                        0x080084a5    0x5e  Code  Gb  csp_conn.o [1]
+csp_conn_find           0x080085b7    0x36  Code  Gb  csp_conn.o [1]
+csp_conn_flush_rx_queue
+                        0x080085ed    0x30  Code  Gb  csp_conn.o [1]
+csp_conn_get_rxq        0x080084a1     0x4  Code  Gb  csp_conn.o [1]
+csp_conn_init           0x08008503    0xb4  Code  Gb  csp_conn.o [1]
+csp_conn_new            0x080086a1    0x26  Code  Gb  csp_conn.o [1]
+csp_conn_print_table    0x0800871d    0x48  Code  Gb  csp_conn.o [1]
+csp_crc32_append        0x08009d7d    0x54  Code  Gb  csp_crc32.o [1]
+csp_crc32_memory        0x08009d49    0x30  Code  Gb  csp_crc32.o [1]
+csp_crc32_verify        0x08009dd1    0x68  Code  Gb  csp_crc32.o [1]
+csp_debug_hook          0x08003319     0xc  Code  Gb  main.o [1]
+csp_debug_hook_func     0x2000fc68     0x4  Data  Gb  csp_debug.o [1]
+csp_debug_hook_set      0x0800644d     0x6  Code  Gb  csp_debug.o [1]
+csp_debug_level_enabled
+                        0x2000fc34     0x8  Data  Lc  csp_debug.o [1]
+csp_debug_set_level     0x080064e3     0xe  Code  Gb  csp_debug.o [1]
+csp_debug_toggle_level  0x080064f1    0x38  Code  Gb  csp_debug.o [1]
+csp_free                0x08009cad     0x8  Code  Gb  csp_malloc.o [1]
+csp_get_address         0x08007ebd     0x8  Code  Gb  csp_io.o [1]
+csp_get_ms              0x08008891     0x8  Code  Gb  csp_time.o [1]
+csp_hton16              0x080089ef    0x10  Code  Gb  csp_endian.o [1]
+csp_hton32              0x08008a09    0x18  Code  Gb  csp_endian.o [1]
+csp_if_can              0x200000d0    0x3c  Data  Gb  can.o [1]
+csp_if_lo               0x2000010c    0x3c  Data  Gb  csp_if_lo.o [1]
+csp_iflist_add          0x0800879d    0x36  Code  Gb  csp_iflist.o [1]
+csp_iflist_print        0x08008821    0x58  Code  Gb  csp_iflist.o [1]
+csp_init                0x08007ec5    0x4c  Code  Gb  csp_io.o [1]
+csp_lo_tx               0x0800c67d    0x34  Code  Gb  csp_if_lo.o [1]
+csp_malloc              0x08009ca5     0x8  Code  Gb  csp_malloc.o [1]
+csp_mutex_create        0x08009eb5    0x1a  Code  Gb  csp_semaphore.o [1]
+csp_my_address          0x2000fceb     0x1  Data  Lc  csp_io.o [1]
+csp_ntoh16              0x080089ff     0xa  Code  Gb  csp_endian.o [1]
+csp_ntoh32              0x08008a21     0x8  Code  Gb  csp_endian.o [1]
+csp_port_get_socket     0x08009cfd    0x32  Code  Gb  csp_port.o [1]
+csp_port_init           0x08009d2f    0x14  Code  Gb  csp_port.o [1]
+csp_qfifo_init          0x08008a29    0x38  Code  Gb  csp_qfifo.o [1]
+csp_qfifo_read          0x08008a61    0x1e  Code  Gb  csp_qfifo.o [1]
+csp_qfifo_write         0x08008a7f    0x94  Code  Gb  csp_qfifo.o [1]
+csp_queue_create        0x08009cb5     0xa  Code  Gb  csp_queue.o [1]
+csp_queue_dequeue       0x08009cdf    0x14  Code  Gb  csp_queue.o [1]
+csp_queue_enqueue       0x08009cbf    0x16  Code  Gb  csp_queue.o [1]
+csp_queue_enqueue_isr   0x08009cd5     0xa  Code  Gb  csp_queue.o [1]
+csp_queue_size          0x08009cf3     0x8  Code  Gb  csp_queue.o [1]
+csp_route_check_options
+                        0x0800814d    0x56  Code  Lc  csp_route.o [1]
+csp_route_security_check
+                        0x080081a3    0x4c  Code  Lc  csp_route.o [1]
+csp_route_start_task    0x08008437    0x2e  Code  Gb  csp_route.o [1]
+csp_route_start_task::handle_router
+                        0x2000fc74     0x4  Data  Lc  csp_route.o [1]
+csp_route_work          0x080081ef   0x23c  Code  Gb  csp_route.o [1]
+csp_rtable_find         0x08008025    0x2e  Code  Lc  csp_rtable_static.o [1]
+csp_rtable_find_iface   0x08008053    0x14  Code  Gb  csp_rtable_static.o [1]
+csp_rtable_find_mac     0x08008067    0x14  Code  Gb  csp_rtable_static.o [1]
+csp_rtable_print        0x080080c9    0x6a  Code  Gb  csp_rtable_static.o [1]
+csp_rtable_set          0x0800807b    0x4e  Code  Gb  csp_rtable_static.o [1]
+csp_send_direct         0x08007f11    0xf0  Code  Gb  csp_io.o [1]
+csp_set_address         0x08007eb5     0x8  Code  Gb  csp_io.o [1]
+csp_sys_set_color       0x08007bc5    0x7e  Code  Gb  csp_system.o [1]
+csp_task_router         0x0800842b     0xc  Code  Gb  csp_route.o [1]
+csp_thread_create       0x08009e95    0x20  Code  Gb  csp_thread.o [1]
+csp_udp_new_packet      0x08009e39    0x5c  Code  Gb  csp_udp.o [1]
+digits                  0x0800b5f4    0x28  Data  Lc  iar_Stoulx.o [3]
+div                     0x0800a8bd     0xe  Code  Gb  div.o [3]
+do_csp_debug            0x08006453    0x90  Code  Gb  csp_debug.o [1]
+driver_can_filter       0x0800602b    0x76  Code  Gb  driver_can.o [1]
+driver_can_init         0x08005ca1   0x38a  Code  Gb  driver_can.o [1]
+driver_can_ioinit       0x0800557d    0x8c  Code  Lc  driver_can.o [1]
+driver_can_recv         0x080060cb     0xe  Code  Gb  driver_can.o [1]
+driver_can_send         0x080060a1    0x2a  Code  Gb  driver_can.o [1]
+driver_can_sendloop     0x080060dd    0x8e  Code  Gb  driver_can.o [1]
+driver_can_sendloop::g_check_empty_u32
+                        0x2000fc78     0x4  Data  Lc  driver_can.o [1]
+driver_can_writemailbox
+                        0x08005609    0xe4  Code  Lc  driver_can.o [1]
+driver_time_getruntime  0x0800664f     0x6  Code  Gb  driver_time.o [1]
+driver_time_gettm       0x080065e5    0x22  Code  Gb  driver_time.o [1]
+driver_time_init        0x080065ad    0x1a  Code  Gb  driver_time.o [1]
+driver_time_localtime_r
+                        0x08006573    0x3a  Code  Gb  driver_time.o [1]
+driver_time_mktime_r    0x08006547    0x2c  Code  Gb  driver_time.o [1]
+driver_time_sechandle   0x080065c7    0x1e  Code  Gb  driver_time.o [1]
+driver_time_settm       0x08006607    0x48  Code  Gb  driver_time.o [1]
+driver_uart0            0x20000160    0x3c  Data  Lc  driver_uart.o [1]
+driver_uart0_recv_isr   0x0800396f    0x2a  Code  Lc  driver_uart.o [1]
+driver_uart0_rxbuf      0x2000fcec     0x1  Data  Lc  driver_uart.o [1]
+driver_uart0_rxerr_isr  0x08003b7b     0xc  Code  Lc  driver_uart.o [1]
+driver_uart0_send_isr   0x080036ff    0x68  Code  Lc  driver_uart.o [1]
+driver_uart0_txbuf      0x2000fced     0x1  Data  Lc  driver_uart.o [1]
+driver_uart1            0x2000019c    0x3c  Data  Lc  driver_uart.o [1]
+driver_uart1_recv_isr   0x08003999    0x2a  Code  Lc  driver_uart.o [1]
+driver_uart1_rxbuf      0x2000fcee     0x1  Data  Lc  driver_uart.o [1]
+driver_uart1_rxerr_isr  0x08003b87     0xc  Code  Lc  driver_uart.o [1]
+driver_uart1_send_isr   0x08003767    0x68  Code  Lc  driver_uart.o [1]
+driver_uart1_txbuf      0x2000fcef     0x1  Data  Lc  driver_uart.o [1]
+driver_uart2            0x200001d8    0x3c  Data  Lc  driver_uart.o [1]
+driver_uart2_recv_isr   0x080039c3    0x2a  Code  Lc  driver_uart.o [1]
+driver_uart2_rxbuf      0x2000f98c    0x80  Data  Lc  driver_uart.o [1]
+driver_uart2_rxerr_isr  0x08003b93     0xc  Code  Lc  driver_uart.o [1]
+driver_uart2_send_isr   0x080037cf    0x68  Code  Lc  driver_uart.o [1]
+driver_uart2_txbuf      0x2000fb30    0x40  Data  Lc  driver_uart.o [1]
+driver_uart3            0x20000214    0x3c  Data  Lc  driver_uart.o [1]
+driver_uart3_recv_isr   0x080039ed    0x2a  Code  Lc  driver_uart.o [1]
+driver_uart3_rxbuf      0x2000fcf0     0x1  Data  Lc  driver_uart.o [1]
+driver_uart3_rxerr_isr  0x08003b9f     0xc  Code  Lc  driver_uart.o [1]
+driver_uart3_send_isr   0x08003837    0x68  Code  Lc  driver_uart.o [1]
+driver_uart3_txbuf      0x2000fcf1     0x1  Data  Lc  driver_uart.o [1]
+driver_uart4            0x20000250    0x3c  Data  Lc  driver_uart.o [1]
+driver_uart4_recv_isr   0x08003a17    0x2a  Code  Lc  driver_uart.o [1]
+driver_uart4_rxbuf      0x2000c3a0  0x1020  Data  Lc  driver_uart.o [1]
+driver_uart4_rxerr_isr  0x08003bab     0xc  Code  Lc  driver_uart.o [1]
+driver_uart4_send_isr   0x0800389f    0x68  Code  Lc  driver_uart.o [1]
+driver_uart4_txbuf      0x2000d3c0  0x1020  Data  Lc  driver_uart.o [1]
+driver_uart5            0x2000028c    0x3c  Data  Lc  driver_uart.o [1]
+driver_uart5_recv_isr   0x08003a41    0x2a  Code  Lc  driver_uart.o [1]
+driver_uart5_rxbuf      0x2000fcf2     0x1  Data  Lc  driver_uart.o [1]
+driver_uart5_rxerr_isr  0x08003bb7     0xc  Code  Lc  driver_uart.o [1]
+driver_uart5_send_isr   0x08003907    0x68  Code  Lc  driver_uart.o [1]
+driver_uart5_txbuf      0x2000fcf3     0x1  Data  Lc  driver_uart.o [1]
+driver_uart_flush       0x08003caf    0x74  Code  Gb  driver_uart.o [1]
+driver_uart_init        0x08003bc3    0xec  Code  Lc  driver_uart.o [1]
+driver_uart_recv        0x08003d5b    0x7c  Code  Gb  driver_uart.o [1]
+driver_uart_rxerr_isr   0x08003a6b   0x110  Code  Lc  driver_uart.o [1]
+driver_uart_send        0x08003dd7   0x1ee  Code  Gb  driver_uart.o [1]
+driver_uart_set         0x08003d23    0x38  Code  Gb  driver_uart.o [1]
+driver_uart_tab         0x200002c8    0x18  Data  Lc  driver_uart.o [1]
+eTaskGetState           0x08006883    0x6c  Code  Gb  tasks.o [1]
+exit                    0x0800cd8b     0x4  Code  Gb  exit.o [3]
+extended_can_id         0x2000fc40     0x4  Data  Lc  can.o [1]
+extended_can_id_get     0x0800496d    0x28  Code  Gb  can.o [1]
+extended_can_id_init    0x08004951    0x1c  Code  Lc  can.o [1]
+free                    0x080073e5     0x4  Code  Gb  heaptramp0.o [3]
+frexp                   0x0800a545          Code  Gb  frexp.o [4]
+frexpl                  0x0800a545          Code  Gb  frexp.o [4]
+gRunTime                0x2000fc84     0x4  Data  Lc  driver_time.o [1]
+gSwTime                 0x2000fc80     0x4  Data  Lc  driver_time.o [1]
+gTaskDebugFlag          0x2000fc8c     0x4  Data  Lc  osapi_freertos.o [1]
+gTaskDebugLevel         0x2000fbb4    0x14  Data  Lc  osapi_freertos.o [1]
+g_can_rcv_packet        0x2000fc48     0x4  Data  Gb  can.o [1]
+g_can_rcverr_packet     0x2000fc4c     0x4  Data  Gb  can.o [1]
+g_can_send_packet       0x2000fc44     0x4  Data  Gb  can.o [1]
+g_clock_t               0x2000fc2c     0x8  Data  Gb  clock.o [1]
+g_driver_can_rxdata_t   0x2000f6e0   0x100  Data  Gb  driver_can.o [1]
+g_driver_can_t          0x20000148    0x18  Data  Gb  driver_can.o [1]
+g_driver_can_txdata_t   0x2000a360  0x2040  Data  Gb  driver_can.o [1]
+g_driver_idlist_au32    0x2000fa0c    0x70  Data  Gb  driver_can.o [1]
+getchar                 0x080098fd    0x2e  Code  Gb  getchar.o [3]
+getstdiouart            0x080051cb     0x6  Code  Gb  retarget.o [1]
+gettime                 0x08006541     0x6  Code  Gb  driver_time.o [1]
+init_mparams            0x0800014b    0x32  Code  Lc  dlmalloc.o [3]
+init_top                0x0800017d    0x32  Code  Lc  dlmalloc.o [3]
+interfaces              0x2000fc6c     0x4  Data  Lc  csp_iflist.o [1]
+is_txmail_empty         0x080056ed    0x12  Code  Lc  driver_can.o [1]
+isprint                 0x08007c49    0x3e  Code  Gb  isprint.o [3]
+kiss_clientaddr         0x2000035c     0x1  Data  Gb  kiss.o [1]
+kiss_get_clientaddr     0x0800476d     0x6  Code  Gb  kiss.o [1]
+kiss_get_serveraddr     0x08004779     0x6  Code  Gb  kiss.o [1]
+kiss_get_serverport     0x08004785     0x6  Code  Gb  kiss.o [1]
+kiss_serveraddr         0x2000035d     0x1  Data  Gb  kiss.o [1]
+kiss_serverport         0x2000035e     0x1  Data  Gb  kiss.o [1]
+kiss_set                0x08004791    0x7a  Code  Gb  kiss.o [1]
+kiss_set_clientaddr     0x08004773     0x6  Code  Gb  kiss.o [1]
+kiss_set_serveraddr     0x0800477f     0x6  Code  Gb  kiss.o [1]
+kiss_set_serverport     0x0800478b     0x6  Code  Gb  kiss.o [1]
+ldexp                   0x0800a615          Code  Gb  ldexp.o [4]
+ldexpl                  0x0800a615          Code  Gb  ldexp.o [4]
+lmos                    0x0800aa10    0x18  Data  Lc  xttotm.o [3]
+lmos                    0x0800a908    0x18  Data  Lc  xDaysTo.o [3]
+localtime               0x08009a25    0x1a  Code  Gb  localtim.o [3]
+main                    0x08003355    0xc4  Code  Gb  main.o [1]
+memchr                  0x0800a259          Code  Gb  memchr.o [5]
+memcmp                  0x08007439          Code  Gb  memcmp.o [5]
+mktime                  0x08009959    0xcc  Code  Gb  mktime.o [3]
+mos                     0x0800aa28    0x18  Data  Lc  xttotm.o [3]
+mos                     0x0800a920    0x18  Data  Lc  xDaysTo.o [3]
+mparams                 0x2000fb9c    0x18  Data  Lc  dlmalloc.o [3]
+ndigs                   0x0800b61c    0x28  Data  Lc  iar_Stoulx.o [3]
+pSemStdio               0x2000fc88     0x4  Data  Lc  osapi_freertos.o [1]
+pSemTime                0x2000fc7c     0x4  Data  Lc  driver_time.o [1]
+port_config_runtime     0x08007385    0x12  Code  Gb  port.o [1]
+port_get_runtime        0x08007397     0x6  Code  Gb  port.o [1]
+port_time_callback      0x08007379     0xc  Code  Gb  port.o [1]
+ports                   0x2000f5d8   0x108  Data  Lc  csp_port.o [1]
+prepend_alloc           0x080001af   0x342  Code  Lc  dlmalloc.o [3]
+printf                  0x080051d5    0x28  Code  Gb  printf.o [3]
+process_eps_can_request
+                        0x08003325    0x30  Code  Gb  main.o [1]
+prvAddCurrentTaskToDelayedList
+                        0x08007209    0x7c  Code  Lc  tasks.o [1]
+prvAddNewTaskToReadyList
+                        0x0800678f    0xc2  Code  Lc  tasks.o [1]
+prvCheckTasksWaitingTermination
+                        0x08006e33    0x48  Code  Lc  tasks.o [1]
+prvCopyDataFromQueue    0x08007ad3    0x2a  Code  Lc  queue.o [1]
+prvCopyDataToQueue      0x08007a4d    0x86  Code  Lc  queue.o [1]
+prvDeleteTCB            0x08006f97    0x12  Code  Lc  tasks.o [1]
+prvGetDisinheritPriorityAfterTimeout
+                        0x08007a39    0x14  Code  Lc  queue.o [1]
+prvIdleTask             0x08006db5    0x24  Code  Lc  tasks.o [1]
+prvInitialiseMutex      0x0800757b    0x1e  Code  Lc  queue.o [1]
+prvInitialiseNewQueue   0x08007559    0x22  Code  Lc  queue.o [1]
+prvInitialiseNewTask    0x080066d5    0xba  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists  0x08006ddd    0x56  Code  Lc  tasks.o [1]
+prvIsQueueEmpty         0x08007b6b    0x1c  Code  Lc  queue.o [1]
+prvIsQueueFull          0x08007b87    0x1e  Code  Lc  queue.o [1]
+prvListTasksWithinSingleList
+                        0x08006f11    0x70  Code  Lc  tasks.o [1]
+prvResetNextTaskUnblockTime
+                        0x08006fa9    0x2c  Code  Lc  tasks.o [1]
+prvTaskCheckFreeStackSpace
+                        0x08006f81    0x16  Code  Lc  tasks.o [1]
+prvTaskExitError        0x080072e1    0x10  Code  Lc  port.o [1]
+prvUnlockQueue          0x08007afd    0x6e  Code  Lc  queue.o [1]
+putchar                 0x08009931    0x28  Code  Gb  putchar.o [3]
+pvPortMalloc            0x08009a3f    0x20  Code  Gb  heap_3.o [1]
+pvTaskIncrementMutexHeldCount
+                        0x080071cd    0x1e  Code  Gb  tasks.o [1]
+pxCurrentTCB            0x2000fc98     0x4  Data  Gb  tasks.o [1]
+pxDelayedTaskList       0x2000fc9c     0x4  Data  Lc  tasks.o [1]
+pxOverflowDelayedTaskList
+                        0x2000fca0     0x4  Data  Lc  tasks.o [1]
+pxPortInitialiseStack   0x080072c1    0x20  Code  Gb  port.o [1]
+pxReadyTasksLists       0x2000fa7c    0x64  Data  Lc  tasks.o [1]
+qfifo                   0x2000fc70     0x4  Data  Lc  csp_qfifo.o [1]
+rand                    0x08008899    0x96  Code  Gb  rand.o [3]
+ranmatch                0x0800ae33    0x42  Code  Lc  xscanflarge_nomb.o [3]
+routes                  0x2000f7e0    0xa8  Data  Lc  csp_rtable_static.o [1]
+rx_fifo_in              0x080056ff    0x92  Code  Lc  driver_can.o [1]
+rx_fifo_in              0x08003519    0x44  Code  Lc  driver_uart.o [1]
+rx_fifo_out             0x08005791    0xd4  Code  Lc  driver_can.o [1]
+rx_fifo_out             0x0800355d    0x8a  Code  Lc  driver_uart.o [1]
+s_port_runtime_u32      0x2000fc90     0x4  Data  Lc  port.o [1]
+s_time_callback_pfun    0x2000fc3c     0x4  Data  Lc  bsp_time.o [1]
+scalbln                 0x0800a615          Code  Gb  ldexp.o [4]
+scalblnl                0x0800a615          Code  Gb  ldexp.o [4]
+scalbn                  0x0800a615          Code  Gb  ldexp.o [4]
+scalbnl                 0x0800a615          Code  Gb  ldexp.o [4]
+scale                   0x080091b9    0x46  Code  Lc  xprintffull_nomb.o [3]
+sec_hand                0x2000fce4     0x4  Data  Lc  xfail_s.o [3]
+segment_holding         0x08000131    0x1a  Code  Lc  dlmalloc.o [3]
+setstdiouart            0x080051c5     0x6  Code  Gb  retarget.o [1]
+shell_check_passwd      0x08005241    0x64  Code  Lc  shell.o [1]
+shell_cmd_check         0x080052a5    0x28  Code  Lc  shell.o [1]
+shell_cmd_len           0x08005229    0x18  Code  Lc  shell.o [1]
+shell_cmd_list          0x0800be34    0xcc  Data  Gb  shell_fun.o [1]
+shell_exec_cmdlist      0x080053bd    0x5c  Code  Gb  shell.o [1]
+shell_exec_shellcmd     0x08005419    0x26  Code  Gb  shell.o [1]
+shell_getchar           0x080051fd    0x2c  Code  Lc  shell.o [1]
+shell_read_line         0x080052cd    0xf0  Code  Lc  shell.o [1]
+shellpassed             0x200002e4     0x4  Data  Lc  shell.o [1]
+shelltask               0x080032a7    0x5a  Code  Lc  main.o [1]
+size                    0x2000fc5c     0x4  Data  Lc  csp_buffer.o [1]
+snprintf                0x0800a1b9    0x44  Code  Gb  snprintf.o [3]
+sport                   0x2000fce9     0x1  Data  Lc  csp_conn.o [1]
+sport_lock              0x2000fc64     0x4  Data  Lc  csp_conn.o [1]
+srand                   0x0800892f     0xa  Code  Gb  rand.o [3]
+sscanf                  0x0800bd85    0x28  Code  Gb  sscanf.o [3]
+stdiouart               0x2000035f     0x1  Data  Lc  retarget.o [1]
+strchr                  0x0800a1fd          Code  Gb  strchr.o [5]
+strcmp                  0x0800bdb5          Code  Gb  strcmp.o [5]
+strlen                  0x080073e9          Code  Gb  strlen.o [5]
+strtol                  0x0800b4cf     0x4  Code  Gb  iar_Stolx.o [3]
+strtoul                 0x0800b5eb     0x2  Code  Gb  iar_Stoulx.o [3]
+sys_alloc               0x08000703   0x156  Code  Lc  dlmalloc.o [3]
+sys_trim                0x08000859    0x64  Code  Lc  dlmalloc.o [3]
+tmalloc_large           0x080008c9   0x38e  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0x08000c57   0x1fe  Code  Lc  dlmalloc.o [3]
+tx_fifo_in              0x08005865   0x158  Code  Lc  driver_can.o [1]
+tx_fifo_in              0x080035e7    0xc0  Code  Lc  driver_uart.o [1]
+tx_fifo_out             0x080059bd    0xa0  Code  Lc  driver_can.o [1]
+tx_fifo_out             0x080036a7    0x58  Code  Lc  driver_uart.o [1]
+uart0_rxhook            0x08003503     0x2  Code  Lc  driver_uart.o [1]
+uart0_txhook            0x08003501     0x2  Code  Lc  driver_uart.o [1]
+uart1_rxhook            0x08003507     0x2  Code  Lc  driver_uart.o [1]
+uart1_txhook            0x08003505     0x2  Code  Lc  driver_uart.o [1]
+uart2_rxhook            0x0800350b     0x2  Code  Lc  driver_uart.o [1]
+uart2_txhook            0x08003509     0x2  Code  Lc  driver_uart.o [1]
+uart3_rxhook            0x0800350f     0x2  Code  Lc  driver_uart.o [1]
+uart3_txhook            0x0800350d     0x2  Code  Lc  driver_uart.o [1]
+uart4_rxhook            0x08003513     0x2  Code  Lc  driver_uart.o [1]
+uart4_txhook            0x08003511     0x2  Code  Lc  driver_uart.o [1]
+uart5_rxhook            0x08003517     0x2  Code  Lc  driver_uart.o [1]
+uart5_txhook            0x08003515     0x2  Code  Lc  driver_uart.o [1]
+uarttask                0x080030b1   0x1f6  Code  Lc  main.o [1]
+uarttask::buff          0x2000e3e0  0x1020  Data  Lc  main.o [1]
+ulTaskSwitchedInTime    0x2000fcd8     0x4  Data  Lc  tasks.o [1]
+ulTotalRunTime          0x2000fcdc     0x4  Data  Lc  tasks.o [1]
+usart_init              0x08008021     0x2  Code  Gb  usart_stm32.o [1]
+uxCriticalNesting       0x200002e0     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x2000fcac     0x4  Data  Lc  tasks.o [1]
+uxDeletedTasksWaitingCleanUp
+                        0x2000fca4     0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x08009ae9    0x26  Code  Gb  list.o [1]
+uxPendedTicks           0x2000fcbc     0x4  Data  Lc  tasks.o [1]
+uxQueueMessagesWaiting  0x08007a27    0x12  Code  Gb  queue.o [1]
+uxSchedulerSuspended    0x2000fcd4     0x4  Data  Lc  tasks.o [1]
+uxTaskGetNumberOfTasks  0x08006a3d     0x8  Code  Gb  tasks.o [1]
+uxTaskGetSystemState    0x08006a45    0xa4  Code  Gb  tasks.o [1]
+uxTaskNumber            0x2000fcc8     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x2000fcb4     0x4  Data  Lc  tasks.o [1]
+vApplicationMallocFailedHook
+                        0x08003485     0x2  Code  Gb  main.o [1]
+vApplicationTickHook    0x08009b11    0x44  Code  Gb  clock.o [1]
+vListInitialise         0x08009a77    0x1e  Code  Gb  list.o [1]
+vListInitialiseItem     0x08009a95     0x6  Code  Gb  list.o [1]
+vListInsert             0x08009ab3    0x36  Code  Gb  list.o [1]
+vListInsertEnd          0x08009a9b    0x18  Code  Gb  list.o [1]
+vPortEnterCritical      0x0800731d    0x1a  Code  Gb  port.o [1]
+vPortExitCritical       0x08007337    0x1a  Code  Gb  port.o [1]
+vPortFree               0x08009a5f    0x18  Code  Gb  heap_3.o [1]
+vPortSVCHandler         0x08009b9b          Code  Gb  portasm.o [1]
+vPortStartFirstTask     0x08009bbb          Code  Gb  portasm.o [1]
+vTaskDelay              0x08006851    0x32  Code  Gb  tasks.o [1]
+vTaskGetInfo            0x08006e81    0x7e  Code  Gb  tasks.o [1]
+vTaskInternalSetTimeOutState
+                        0x08006d29    0x12  Code  Gb  tasks.o [1]
+vTaskMissedYield        0x08006da9     0xa  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x08006ca1    0x1a  Code  Gb  tasks.o [1]
+vTaskPriorityDisinheritAfterTimeout
+                        0x08007125    0x98  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x080068ef    0x54  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x08006943    0x10  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x08006bf7    0xaa  Code  Gb  tasks.o [1]
+vprintf                 0x08007ba5    0x20  Code  Gb  vprintf.o [3]
+xDelayedTaskList1       0x2000fbc8    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x2000fbdc    0x14  Data  Lc  tasks.o [1]
+xIdleTaskHandle         0x2000fcd0     0x4  Data  Lc  tasks.o [1]
+xNextTaskUnblockTime    0x2000fccc     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x2000fcc4     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x2000fbf0    0x14  Data  Lc  tasks.o [1]
+xPortPendSVHandler      0x08009b55          Code  Gb  portasm.o [1]
+xPortStartScheduler     0x080072f1    0x2c  Code  Gb  port.o [1]
+xPortSysTickHandler     0x08007351    0x28  Code  Gb  port.o [1]
+xQueueCreateCountingSemaphore
+                        0x080075b3    0x14  Code  Gb  queue.o [1]
+xQueueCreateMutex       0x08007599    0x1a  Code  Gb  queue.o [1]
+xQueueGenericCreate     0x08007523    0x36  Code  Gb  queue.o [1]
+xQueueGenericReset      0x080074a1    0x82  Code  Gb  queue.o [1]
+xQueueGenericSend       0x080075c7   0x10e  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x080076d5    0x66  Code  Gb  queue.o [1]
+xQueueGiveFromISR       0x0800773b    0x5a  Code  Gb  queue.o [1]
+xQueueReceive           0x08007795    0xf6  Code  Gb  queue.o [1]
+xQueueReceiveFromISR    0x080079bd    0x6a  Code  Gb  queue.o [1]
+xQueueSemaphoreTake     0x0800788b   0x12e  Code  Gb  queue.o [1]
+xSchedulerRunning       0x2000fcb8     0x4  Data  Lc  tasks.o [1]
+xSuspendedTaskList      0x2000fc18    0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut    0x08006d51    0x58  Code  Gb  tasks.o [1]
+xTaskCreate             0x08006665    0x70  Code  Gb  tasks.o [1]
+xTaskGetCurrentTaskHandle
+                        0x08006fd5     0x8  Code  Gb  tasks.o [1]
+xTaskGetTickCount       0x08006a35     0x8  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x08006ae9   0x10e  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                        0x0800709f    0x86  Code  Gb  tasks.o [1]
+xTaskPriorityInherit    0x08006fdd    0xc2  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x08006cbb    0x6a  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x08006953    0xe2  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x2000fc04    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x2000fcb0     0x4  Data  Lc  tasks.o [1]
+xYieldPending           0x2000fcc0     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = C:\Users\hasee\OneDrive\tianyi\天银星敏升级\libcsp_libuv_freertos\proj\proj\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+
+  48 139 bytes of readonly  code memory
+   6 008 bytes of readonly  data memory
+  64 756 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

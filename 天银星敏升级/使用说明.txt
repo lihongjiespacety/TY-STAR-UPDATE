@@ -1,0 +1,14 @@
+UART4 自定义CAN包收发  
+PC10   TXD
+PC11   RXD
+PC  <-> 本板  <-> 待测试板子
+
+UART5 CSP CAN包收发(客户端模式)
+PC12  TXD
+PD2    RXD
+PC  <-> 本板  <-> 待测试板子
+
+UART2 shell
+PD5  TXD
+PD6  RXD
+PC  <-> 本板 
